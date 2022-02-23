@@ -1,7 +1,7 @@
 from pprint import pprint
 
 global N
-N = 9
+N = 8
 
 global usedPos
 usedPos = []
@@ -69,6 +69,7 @@ if __name__ == '__main__':
     while (solve_queen(example_board, 0)):
         solutions = solutions + 1
         pprint(example_board)
+        print("\n")
         example_board = [["."] * N for i in range(N)]
 
     print(solutions)
