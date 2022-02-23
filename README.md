@@ -1,3 +1,3 @@
 # N-Queens
 
-Currently, can only find one solution to the problem
+Can now find all the solutions for a NxN board.
